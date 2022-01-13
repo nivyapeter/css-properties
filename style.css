@@ -1,0 +1,14 @@
+body {
+    line-height: 1.4;
+    max-width: 400px;
+    font-size: 110%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  p {
+    background: #C1F6BE;
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    box-decoration-break: clone;
+  }
