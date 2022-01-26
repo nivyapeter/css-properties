@@ -11,3 +11,12 @@
     /* background-color: rgb(51, 51, 51); */
     
 }
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
