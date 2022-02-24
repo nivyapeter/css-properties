@@ -16,12 +16,16 @@ body
   align-items: center;
   min-height: 100vh;
   background:var(--bg);
+  background-color: coral;
 }
 ul
 {
   position: relative;
   display: flex;
   gap:50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 
 }
 ul li 
@@ -47,7 +51,7 @@ ul li a
 ul li:hover 
 {
     z-index: 10000;
-    transform: scale(0.75);
+    transform: scale(0.50);
 
 }
 ul li::before
@@ -56,7 +60,7 @@ ul li::before
     position: absolute;
     inset: 0;
     box-shadow: 0 0 0 10px var(--clr), 0 0 0 20px var(--bg), 0 0 0 22 var(--clr);
-    transition: 0.5s;
+    transition: 1s;
 
 }
 ul li::after
