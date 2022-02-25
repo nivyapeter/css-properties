@@ -1,0 +1,25 @@
+@import 'compass/css3';
+
+body, figure { display: grid; margin: 0 }
+
+body {
+	--l: Min(13em, calc((100vw - (var(--m) + 1)*#{$s})/var(--m)));
+	box-sizing: border-box;
+	grid-template-columns: repeat(var(--m), var(--l));
+	place-content: center;
+	min-height: 100vh
+}
+
+figure {
+	--hov: 0;
+	overflow: hidden;
+		transition: .5s;
+		pointer-events: none;
+		content: ''
+	}
+	
+
+img {
+	width: var(--l);
+	mix-blend-mode: luminosity;
+}
