@@ -32,7 +32,7 @@ body {
     height:100%;
     transition: 0.5s;
 }
-.container .card .face .face1 {
+.container .card .face.face1 {
     background: #333;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ body {
     z-index: 1;
     transform-origin: bottom;
 }
-.container .card .face .face1 {
+.container .card .face.face1 {
     max-width:100px;
     color:#fff;
     text-align: center;
@@ -50,6 +50,15 @@ body {
     transform: translate(-100%) rotatex(90deg);
     background: #ff0057;
 }
-/* .container .card .face.face1 {
-    
-} */
+.container .card .face.face2 {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform-origin: top;
+    transform:translate(100%) rotatex(90deg);
+}
+.container .card:hover .face.face2 {
+    transform: translate(0) rotate(0deg);
+}
